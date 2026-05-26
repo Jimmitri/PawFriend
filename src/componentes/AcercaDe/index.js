@@ -1,6 +1,4 @@
 import React from 'react';
-import PF1 from '../../images/perfil1.jpg';
-import PF2 from '../../images/perfil2.jpg';
 
 
 export const AcercaDe = () => {
