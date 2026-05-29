@@ -1,76 +1,116 @@
-PARA PODER EJECUTAR LA PAGINA INSTALAR 
+# Project Description
 
+This project consists of the development of a web application built with React JS, focused on providing a modern, dynamic, and intuitive interface for users. The application was collaboratively developed by a team of 4 members, applying frontend and backend technologies to achieve an efficient and responsive experience.
+
+# Project Objective
+
+The main objective of the application is to provide an interactive web platform that allows users to access different functionalities through a friendly, fast, and adaptable interface for different devices.
+
+The website was designed prioritizing:
+
+* Ease of use.
+* Intuitive navigation.
+* Responsive design.
+* Optimization of reusable components.
+* Modular code organization.
+
+# Technologies Used
+
+## Frontend
+
+* React JS
+* HTML5
+* CSS3
+* JavaScript
+
+## Backend
+
+* Node JS
+
+# Libraries Used
+
+```bash
 npm install react-router-dom
 npm install react-icons
 npm install react-scripts
+```
 
-# Getting Started with Create React App
+# Development Team Roles
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Jimmy Adrian Vasquez Berrocal – Component Development
 
-## Available Scripts
+* Creation of components in React JS.
+* Organization of pages and main structure.
+* Implementation of navigation between views.
 
-In the project directory, you can run:
+## Ore Huilcara Christian Andre – Design and Styles
 
-### `npm start`
+* User interface design.
+* Implementation of styles using CSS.
+* Responsive adaptation for different devices.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Huaricancha Navidad Jesus Abel – Data Management and Logic
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+* Work with JSON files.
+* Implementation of page functionalities.
+* Organization of the project logic.
 
-### `npm test`
+## Minaya Chico Stivens Michael – Testing and Fixes
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+* Review of the overall functionality.
+* Correction of visual and functional errors.
+* Optimization and support in project integration.
 
-### `npm run build`
+# Project Installation
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## 1. Clone the repository
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+```bash
+git clone URL_DEL_REPOSITORIO
+```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 2. Enter the project folder
 
-### `npm run eject`
+```bash
+cd nombre-del-proyecto
+```
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+## 3. Install dependencies
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+```bash
+npm install
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## 4. Install required libraries
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash
+npm install react-router-dom
+npm install react-icons
+npm install react-scripts
+```
 
-## Learn More
+## 5. Run the project
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+```bash
+npm start
+```
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+# General Project Structure
 
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+src/
+ ├── components/
+ 	├── AcercaDe/
+ 	├── Adopta/
+ 	├── Barra/
+ 	├── Detalle/
+ 	├── Gatos/
+ 	├── Header/
+ 	├── Inicio/
+ 	├── Perros/
+ 	├── Terminos/
+ ├── Context/
+ ├── Images
+ ├── App.js
+ └── index.js
+```
