@@ -1,10 +1,14 @@
-# Project Description
+# README - React JS Web Project
 
-This project consists of the development of a web application built with React JS, focused on providing a modern, dynamic, and intuitive interface for users. The application was collaboratively developed by a team of 4 members, applying frontend and backend technologies to achieve an efficient and responsive experience.
+## Project Description
 
-# Project Objective
+This project consists of the development of a web application built with React JS for an animal shelter, focused on facilitating the adoption process of dogs and cats through a modern, dynamic, and intuitive interface.
 
-The main objective of the application is to provide an interactive web platform that allows users to access different functionalities through a friendly, fast, and adaptable interface for different devices.
+The application allows users to view pets available for adoption, access detailed information about each animal, and submit adoption requests through a virtual form. The project was collaboratively developed by a team of 4 members, applying frontend and backend technologies to achieve an efficient and responsive user experience.
+
+## Project Objective
+
+The main objective of the application is to provide an interactive web platform that helps animal shelters manage and promote dog and cat adoptions in a simple and accessible way.
 
 The website was designed prioritizing:
 
@@ -13,6 +17,7 @@ The website was designed prioritizing:
 * Responsive design.
 * Optimization of reusable components.
 * Modular code organization.
+* Easy access to the virtual adoption form.
 
 # Technologies Used
 
