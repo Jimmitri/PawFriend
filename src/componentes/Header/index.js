@@ -50,8 +50,11 @@ export const Header = () => {
           <li className="nav__items">
             <Link to={'/TerminosyCondiciones'} className="nav__links" onClick={closeMenu}>Terms and Conditions</Link>
           </li>
-          <img src={close} className="nav__close" alt='close' onClick={closeMenu}></img>
-        </ul>
+          <li className="nav__items">
+          <Link to={'/Administrar'} className="nav__links" onClick={closeMenu}>Admin Panel</Link>
+          </li>
+            <img src={close} className="nav__close" alt='close' onClick={closeMenu}></img>
+          </ul>
 
         <div className="nav__menu" onClick={toggleMenu}>
           <img src={menu} className="nav__img" alt='menu'></img>

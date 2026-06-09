@@ -7,6 +7,8 @@ import { Inicio } from './Inicio/index';
 import { Detalles } from './Detalles/Detalles';
 import { AcercaDe } from './AcercaDe/index';
 import { Terminos } from './Terminos/index';
+import { LoginAdmin } from './Admin/LoginAdmin';
+import PanelAdmin from './Admin/PanelAdmin';
 
 
 export const Paginas = () => {
@@ -20,6 +22,8 @@ export const Paginas = () => {
         <Route path='/Mascota/:id' exact Component={Detalles} />
         <Route path='/AcercaDe' exact Component={AcercaDe} />
         <Route path='/TerminosyCondiciones' exact Component={Terminos} />
+        <Route path='/Administrar' exact Component={LoginAdmin} />
+        <Route path='/panel-admin' element={<PanelAdmin />} />
       </Routes>
     </section>
   );

@@ -8,7 +8,9 @@ export const Perritos = () => {
   const value = useContext(DataContext)
   const [productos] = value.productos
 
-  const productosFiltrados = productos.filter(producto => producto.id >= 1 && producto.id <= 15);
+  const productosFiltrados = productos.filter(
+    producto => producto.raza === "dog"
+  );
 
   console.log(productos)
 
