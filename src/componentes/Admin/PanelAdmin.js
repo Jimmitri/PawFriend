@@ -300,8 +300,8 @@ const PanelAdmin = () => {
                     onChange={manejarCambio}
                 >
                     <option value="">Select type</option>
-                    <option value="dog">Dog</option>
-                    <option value="cat">Cat</option>
+                    <option value="dog">dog</option>
+                    <option value="cat">cat</option>
                 </select>
 
                 <input
