@@ -1,105 +1,204 @@
-README - React JS Web Project
-Animal Shelter Adoption Web Platform
-1. Project Description
+# **Animal Shelter Adoption Web Platform**
 
-This project consists of the development of a modern and interactive web application specifically designed for an animal shelter. Its main purpose is to optimize and facilitate the adoption process for dogs and cats through a dynamic, clean, and intuitive interface.
+## **1. Project Description**
 
-The platform allows users to browse available pets, access detailed information profiles for each animal, and submit adoption requests through a structured web form. Additionally, the system includes an advanced administration module that implements a complete CRUD system for real-time management of the animal inventory.
+This project consists of the development of a modern and interactive web application specifically designed for an animal shelter. Its main purpose is to optimize and facilitate the adoption process of dogs and cats through a dynamic, clean, and intuitive interface.
 
-2. Project Objectives
+The platform allows users to browse available pets, access detailed information about each animal, and submit adoption requests through a structured web form. Additionally, the system includes an advanced administration module that implements a complete **CRUD (Create, Read, Update, Delete)** system for real-time management of the animal inventory.
 
-The primary goal of the application is to efficiently connect shelter animals with responsible adopters. The development focused on the following key objectives:
+---
 
-Intuitive and Smooth Navigation: Modular organization that allows any type of user to easily find pets.
-100% Responsive Design: Optimal adaptation of layouts and styles for smartphones, tablets, and desktop computers.
-Component-Based Architecture: Efficient reuse of interface elements to ensure code scalability and maintainability.
-Centralized Management Panel: Inclusion of a restricted administrative section responsible for creating, updating, and deleting adoption-related data.
-3. Technologies Used
+## **2. Project Objectives**
 
-Frontend:
+The primary goal of the application is to efficiently connect shelter animals with responsible adopters.
 
-React JS
-HTML5
-CSS3
-JavaScript (ES6+)
+### **Key Objectives**
 
-Backend & Database:
+* **Intuitive and Smooth Navigation:** Modular organization that allows users to easily locate pets.
+* **100% Responsive Design:** Optimized for smartphones, tablets, and desktop computers.
+* **Component-Based Architecture:** Efficient reuse of interface elements to ensure scalability and maintainability.
+* **Centralized Management Panel:** Restricted administrator section for managing adoption data.
 
-Node.js
-Firebase (Realtime Database / Firestore)
-4. Agile Framework: Scrum Methodology
+---
 
-To ensure a consistent, iterative, and transparent development process, the team adopted the Scrum framework, dividing the project into two-week development sprints.
+## **3. Technologies Used**
 
-Scrum Role Structure
+### **Frontend**
 
-Product Owner: Ore Huilcara Christian Andre
+* **React JS**
+* **HTML5**
+* **CSS3**
+* **JavaScript (ES6+)**
 
-Responsible for maximizing product value and prioritizing the Product Backlog according to the platform requirements.
+### **Backend & Database**
 
-Scrum Master: Jimmy Adrian Vasquez Berrocal
+* **Node.js**
+* **Firebase (Firestore / Realtime Database)**
 
-Responsible for ensuring the proper adoption of Scrum practices, removing technical impediments, and coordinating the operational workflow.
+---
 
-Development Team
+## **4. Agile Framework – Scrum Methodology**
 
-Actively composed of Huaricancha Navidad Jesus Abel and Minaya Chico Stivens Michael, with direct technical participation from Jimmy Vasquez and Ore Christian in the development of the application's core functionality.
+To ensure a consistent, iterative, and transparent development process, the team adopted the **Scrum Framework**, organizing the project into development sprints.
 
-5. Sprint Planning and Backlog
+### **Scrum Roles**
 
-The Product Backlog was prioritized and distributed across a development cycle consisting of two sprints:
+#### **Product Owner**
 
-Iteration	User Stories / Tasks	Deliverables and Acceptance Criteria
-Sprint 1 (Weeks 1–2)	- React base architecture setup.
-- Dynamic interface design and responsive CSS3 layouts.
-- Routing implementation and main pet views.
-- Firebase database structure setup.	- Functional frontend structure.
-- Successful initial Firebase connection.
-- Responsive user interface for mobile and desktop devices.
-  
-Sprint 2 (Weeks 3–4)	- Creation of the specialized "User/Admin" section.
-- Development of CRUD functionality (Create, Read, Update, Delete).
-- CRUD integration using Node.js with Firebase.
-- Global testing, bug fixing, and final optimization.	- Fully functional administrative module.
-- Administrator ability to create, edit, and remove pets once adopted.
-- System free of critical navigation errors.
-  
-6. Technical Roles and Contribution Matrix
+**Ore Huilcara Christian Andre**
 
-The technical development combined individual specialization with close collaboration in programming logic and database implementation.
+Responsible for maximizing product value and prioritizing the Product Backlog according to project requirements.
 
-Code and Database Contribution Note
+#### **Scrum Master**
 
-The system core programming and Firebase database integration were jointly carried out by the leading roles. Jimmy Adrian Vasquez Berrocal led and contributed the majority of the algorithmic logic and data architecture, supported by direct co-authorship from Ore Huilcara Christian Andre.
+**Jimmy Adrian Vasquez Berrocal**
 
-Jimmy Adrian Vasquez Berrocal (Scrum Master / Lead Developer)
-Lead developer responsible for application logic, modular React JS component architecture, and state management.
-Designed, configured, and integrated most of the Firebase database structure and Node.js backend layer.
-Implemented dynamic site navigation and routing.
-Ore Huilcara Christian Andre (Product Owner / UI-UX Developer)
-Designed the complete user interface (UI) and adopter experience (UX).
-Developed advanced global styles and responsive layouts using CSS3.
-Actively collaborated in application logic development and Firebase data mapping alongside Jimmy.
-Huaricancha Navidad Jesus Abel (Core Logic Developer)
-Processed and mapped pet data through JSON structures integrated into the application logic.
-Implemented specific functional components and dynamic frontend behavior.
-Minaya Chico Stivens Michael (QA & Integration Specialist)
-Planned and executed functional tests for the adoption workflow and CRUD panel.
-Identified, isolated, and corrected visual styling issues and JavaScript runtime errors.
-Provided technical support and optimization during project consolidation and deployment.
-7. Installation and Local Execution
+Responsible for ensuring the proper adoption of Scrum practices, removing technical impediments, and coordinating the team's workflow.
 
-Follow these instructions to clone and run the project locally:
+#### **Development Team**
 
-1. Clone the repository from GitHub
+* **Huaricancha Navidad Jesus Abel**
+* **Minaya Chico Stivens Michael**
+* **Jimmy Adrian Vasquez Berrocal**
+* **Ore Huilcara Christian Andre**
+
+---
+
+## **5. Sprint Planning and Product Backlog**
+
+### **Sprint 1 (Weeks 1–2)**
+
+#### Tasks
+
+* React project architecture setup.
+* Responsive interface design using CSS3.
+* Routing and navigation implementation.
+* Firebase database configuration.
+
+#### Deliverables
+
+* Functional frontend structure.
+* Successful Firebase integration.
+* Responsive user interface.
+
+---
+
+### **Sprint 2 (Weeks 3–4)**
+
+#### Tasks
+
+* Development of the **User/Admin Panel**.
+* CRUD implementation.
+* Node.js and Firebase integration.
+* Testing, debugging, and optimization.
+
+#### Deliverables
+
+* Fully functional administration module.
+* Ability to create, edit, and delete pet records.
+* Stable application without critical navigation errors.
+
+---
+
+## **6. Technical Roles and Contributions**
+
+### **Jimmy Adrian Vasquez Berrocal**
+
+**Scrum Master / Lead Developer**
+
+* Led the development of application logic.
+* Designed the React component architecture.
+* Configured and integrated Firebase services.
+* Developed backend functionality using Node.js.
+* Implemented routing and navigation.
+
+### **Ore Huilcara Christian Andre**
+
+**Product Owner / UI-UX Developer**
+
+* Designed the user interface and user experience.
+* Developed responsive layouts and CSS styling.
+* Collaborated in application logic and Firebase integration.
+
+### **Huaricancha Navidad Jesus Abel**
+
+**Core Logic Developer**
+
+* Processed and mapped pet data structures.
+* Developed functional frontend components.
+
+### **Minaya Chico Stivens Michael**
+
+**QA & Integration Specialist**
+
+* Conducted testing and quality assurance.
+* Identified and fixed visual and functional issues.
+* Assisted in optimization and deployment processes.
+
+---
+
+## **7. Installation and Local Setup**
+
+### **1. Clone the Repository**
+
+```bash
 git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
-2. Navigate to the project root directory
+```
+
+### **2. Navigate to the Project Folder**
+
+```bash
 cd project-name
-3. Install all required dependencies
+```
+
+### **3. Install Dependencies**
+
+```bash
 npm install
-4. Start the local development server
+```
+
+### **4. Start the Development Server**
+
+```bash
 npm start
+```
 
-The application will automatically run on the assigned local port, typically:
+The application will run locally at:
 
+```text
 http://localhost:3000
+```
+
+---
+
+## **Project Features**
+
+✅ Pet browsing system
+
+✅ Detailed pet information pages
+
+✅ Adoption request forms
+
+✅ Firebase database integration
+
+✅ Responsive design
+
+✅ Administrator CRUD panel
+
+✅ Modern React architecture
+
+✅ Scrum-based development process
+
+---
+
+## **Development Team**
+
+* **Jimmy Adrian Vasquez Berrocal** – Scrum Master / Lead Developer
+* **Ore Huilcara Christian Andre** – Product Owner / UI-UX Developer
+* **Huaricancha Navidad Jesus Abel** – Core Logic Developer
+* **Minaya Chico Stivens Michael** – QA & Integration Specialist
+
+---
+
+### **Built with React JS, Firebase, Node.js, and Scrum Methodology** 🚀🐶🐱
+
