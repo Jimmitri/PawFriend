@@ -1,121 +1,105 @@
-# README - React JS Web Project
+README - React JS Web Project
+Animal Shelter Adoption Web Platform
+1. Project Description
 
-## Project Description
+This project consists of the development of a modern and interactive web application specifically designed for an animal shelter. Its main purpose is to optimize and facilitate the adoption process for dogs and cats through a dynamic, clean, and intuitive interface.
 
-This project consists of the development of a web application built with React JS for an animal shelter, focused on facilitating the adoption process of dogs and cats through a modern, dynamic, and intuitive interface.
+The platform allows users to browse available pets, access detailed information profiles for each animal, and submit adoption requests through a structured web form. Additionally, the system includes an advanced administration module that implements a complete CRUD system for real-time management of the animal inventory.
 
-The application allows users to view pets available for adoption, access detailed information about each animal, and submit adoption requests through a virtual form. The project was collaboratively developed by a team of 4 members, applying frontend and backend technologies to achieve an efficient and responsive user experience.
+2. Project Objectives
 
-## Project Objective
+The primary goal of the application is to efficiently connect shelter animals with responsible adopters. The development focused on the following key objectives:
 
-The main objective of the application is to provide an interactive web platform that helps animal shelters manage and promote dog and cat adoptions in a simple and accessible way.
+Intuitive and Smooth Navigation: Modular organization that allows any type of user to easily find pets.
+100% Responsive Design: Optimal adaptation of layouts and styles for smartphones, tablets, and desktop computers.
+Component-Based Architecture: Efficient reuse of interface elements to ensure code scalability and maintainability.
+Centralized Management Panel: Inclusion of a restricted administrative section responsible for creating, updating, and deleting adoption-related data.
+3. Technologies Used
 
-The website was designed prioritizing:
+Frontend:
 
-* Ease of use.
-* Intuitive navigation.
-* Responsive design.
-* Optimization of reusable components.
-* Modular code organization.
-* Easy access to the virtual adoption form.
+React JS
+HTML5
+CSS3
+JavaScript (ES6+)
 
-# Technologies Used
+Backend & Database:
 
-## Frontend
+Node.js
+Firebase (Realtime Database / Firestore)
+4. Agile Framework: Scrum Methodology
 
-* React JS
-* HTML5
-* CSS3
-* JavaScript
+To ensure a consistent, iterative, and transparent development process, the team adopted the Scrum framework, dividing the project into two-week development sprints.
 
-## Backend
+Scrum Role Structure
 
-* Node JS
+Product Owner: Ore Huilcara Christian Andre
 
-# Libraries Used
+Responsible for maximizing product value and prioritizing the Product Backlog according to the platform requirements.
 
-```bash
-npm install react-router-dom
-npm install react-icons
-npm install react-scripts
-```
+Scrum Master: Jimmy Adrian Vasquez Berrocal
 
-# Development Team Roles
+Responsible for ensuring the proper adoption of Scrum practices, removing technical impediments, and coordinating the operational workflow.
 
-## Jimmy Adrian Vasquez Berrocal – Component Development
+Development Team
 
-* Creation of components in React JS.
-* Organization of pages and main structure.
-* Implementation of navigation between views.
+Actively composed of Huaricancha Navidad Jesus Abel and Minaya Chico Stivens Michael, with direct technical participation from Jimmy Vasquez and Ore Christian in the development of the application's core functionality.
 
-## Ore Huilcara Christian Andre – Design and Styles
+5. Sprint Planning and Backlog
 
-* User interface design.
-* Implementation of styles using CSS.
-* Responsive adaptation for different devices.
+The Product Backlog was prioritized and distributed across a development cycle consisting of two sprints:
 
-## Huaricancha Navidad Jesus Abel – Data Management and Logic
+Iteration	User Stories / Tasks	Deliverables and Acceptance Criteria
+Sprint 1 (Weeks 1–2)	- React base architecture setup.
+- Dynamic interface design and responsive CSS3 layouts.
+- Routing implementation and main pet views.
+- Firebase database structure setup.	- Functional frontend structure.
+- Successful initial Firebase connection.
+- Responsive user interface for mobile and desktop devices.
+  
+Sprint 2 (Weeks 3–4)	- Creation of the specialized "User/Admin" section.
+- Development of CRUD functionality (Create, Read, Update, Delete).
+- CRUD integration using Node.js with Firebase.
+- Global testing, bug fixing, and final optimization.	- Fully functional administrative module.
+- Administrator ability to create, edit, and remove pets once adopted.
+- System free of critical navigation errors.
+  
+6. Technical Roles and Contribution Matrix
 
-* Work with JSON files.
-* Implementation of page functionalities.
-* Organization of the project logic.
+The technical development combined individual specialization with close collaboration in programming logic and database implementation.
 
-## Minaya Chico Stivens Michael – Testing and Fixes
+Code and Database Contribution Note
 
-* Review of the overall functionality.
-* Correction of visual and functional errors.
-* Optimization and support in project integration.
+The system core programming and Firebase database integration were jointly carried out by the leading roles. Jimmy Adrian Vasquez Berrocal led and contributed the majority of the algorithmic logic and data architecture, supported by direct co-authorship from Ore Huilcara Christian Andre.
 
-# Project Installation
+Jimmy Adrian Vasquez Berrocal (Scrum Master / Lead Developer)
+Lead developer responsible for application logic, modular React JS component architecture, and state management.
+Designed, configured, and integrated most of the Firebase database structure and Node.js backend layer.
+Implemented dynamic site navigation and routing.
+Ore Huilcara Christian Andre (Product Owner / UI-UX Developer)
+Designed the complete user interface (UI) and adopter experience (UX).
+Developed advanced global styles and responsive layouts using CSS3.
+Actively collaborated in application logic development and Firebase data mapping alongside Jimmy.
+Huaricancha Navidad Jesus Abel (Core Logic Developer)
+Processed and mapped pet data through JSON structures integrated into the application logic.
+Implemented specific functional components and dynamic frontend behavior.
+Minaya Chico Stivens Michael (QA & Integration Specialist)
+Planned and executed functional tests for the adoption workflow and CRUD panel.
+Identified, isolated, and corrected visual styling issues and JavaScript runtime errors.
+Provided technical support and optimization during project consolidation and deployment.
+7. Installation and Local Execution
 
-## 1. Clone the repository
+Follow these instructions to clone and run the project locally:
 
-```bash
-git clone URL_DEL_REPOSITORIO
-```
-
-## 2. Enter the project folder
-
-```bash
-cd nombre-del-proyecto
-```
-
-## 3. Install dependencies
-
-```bash
+1. Clone the repository from GitHub
+git clone https://github.com/YOUR_USERNAME/YOUR_REPOSITORY.git
+2. Navigate to the project root directory
+cd project-name
+3. Install all required dependencies
 npm install
-```
-
-## 4. Install required libraries
-
-```bash
-npm install react-router-dom
-npm install react-icons
-npm install react-scripts
-```
-
-## 5. Run the project
-
-```bash
+4. Start the local development server
 npm start
-```
 
-# General Project Structure
+The application will automatically run on the assigned local port, typically:
 
-```bash
-src/
- ├── components/
- 	├── AcercaDe/
- 	├── Adopta/
- 	├── Barra/
- 	├── Detalle/
- 	├── Gatos/
- 	├── Header/
- 	├── Inicio/
- 	├── Perros/
- 	├── Terminos/
- ├── Context/
- ├── Images
- ├── App.js
- └── index.js
-```
+http://localhost:3000
